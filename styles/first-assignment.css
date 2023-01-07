@@ -125,6 +125,7 @@
   color: #F15B22;
   border: none;
 }
+
 /* hand watch styles ends here */
 
 /* resume styles start here */
@@ -180,6 +181,59 @@
   border-radius: 5px;
   padding: 18px 36px;
   color: #FFFFFF;
-  background: #FD6E0A;
+  background-color: #F15B22;
 }
+
 /* resume styles ends here */
+
+/* footer styles start here */
+
+.footer-container {
+  padding: 130px 180px;
+  display: flex;
+  gap: 250px;
+  background-color: #151414;
+  color: white;
+  margin-top: 130px;
+}
+.footer-container .footer-left-sight-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.footer-container .footer-left-sight-description {
+  line-height: 26px;
+  margin-bottom: 24px;
+  color: gainsboro;
+}
+.footer-container .footer-left-sight-email {
+  color: gainsboro;
+  margin-bottom: 15px;
+}
+.footer-container .footer-left-sight-phone {
+  color: gainsboro;
+  margin-bottom: 30px;
+}
+.footer-container .footer-icon-img {
+  padding-left: 30px;
+}
+.footer-container .footer-right-sight-title {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+.footer-container .footer-right-sight-input {
+  padding: 20px 50px;
+  border-radius: 5px;
+  background-color: #151414;
+  border: 1px solid white;
+  margin-bottom: 15px;
+}
+.footer-container .footer-right-sight-btn {
+  padding: 15px 30px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #F15B22;
+}
+
+/* footer styles ends here */
